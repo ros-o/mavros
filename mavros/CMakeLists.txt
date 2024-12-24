@@ -47,7 +47,6 @@ find_package(GeographicLib REQUIRED)
 ## Check if the datasets are installed
 include(CheckGeographicLibDatasets)
 
-include(EnableCXX11)
 include(MavrosMavlink)
 
 # detect if sensor_msgs has BatteryState.msg

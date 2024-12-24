@@ -29,8 +29,6 @@ if(NOT EIGEN3_FOUND)
   set(EIGEN3_LIBRARIES ${EIGEN_LIBRARIES})
 endif()
 
-include(EnableCXX11)
-
 # Fix issue #546: control_toolbox changed API in Kinetic
 if(${control_toolbox_VERSION} VERSION_LESS 1.14.0)
   message(STATUS "Use old control_toolbox API")

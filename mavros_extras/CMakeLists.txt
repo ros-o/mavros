@@ -30,7 +30,6 @@ if(NOT EIGEN3_FOUND)
   set(EIGEN3_LIBRARIES ${EIGEN_LIBRARIES})
 endif()
 
-include(EnableCXX11)
 include(MavrosMavlink)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
